@@ -31,8 +31,8 @@ public class MongoCRUD {
 
 		/* Inserta varios documentos */
 		/* Insertamos varios documentos creados parseando strings */
-		HarryPotter.insertMany(Arrays.asList(Document.parse("{name: 'Fleur Isabelle Weasley', specie: 'Human', gender: 'Female', house: '', ancestry: 'pure-blood', eyeColour: 'blue', hairColour: 'red', wand: {wood: '', core: '', length: ''}, patronus: 'weasel', hogwartsStudent: false, hogwartsStaff: false, alive: true, image: 'http://hp-api.herokuapp.com/images/Fleur.jpg'}"),
-				Document.parse("{name: 'Percy Ignatius Weasley', specie: 'Human', gender: 'Male', house: 'Gryffindor', ancestry: 'pure-blood', eyeColour: 'blue', hairColour: 'red', wand: {wood: '', core: '', length: ''}, patronus: 'weasel', hogwartsStudent: false, hogwartsStaff: false, alive: true, image: 'http://hp-api.herokuapp.com/images/Percy.jpg'}")));
+		HarryPotter.insertMany(Arrays.asList(Document.parse("{name: 'Fleur Isabelle Weasley', species: 'Human', gender: 'Female', house: '', ancestry: 'pure-blood', eyeColour: 'blue', hairColour: 'red', wand: {wood: '', core: '', length: ''}, patronus: 'weasel', hogwartsStudent: false, hogwartsStaff: false, alive: true, image: 'http://hp-api.herokuapp.com/images/Fleur.jpg'}"),
+				Document.parse("{name: 'Percy Ignatius Weasley', species: 'Human', gender: 'Male', house: 'Gryffindor', ancestry: 'pure-blood', eyeColour: 'blue', hairColour: 'red', wand: {wood: '', core: '', length: ''}, patronus: 'weasel', hogwartsStudent: false, hogwartsStaff: false, alive: true, image: 'http://hp-api.herokuapp.com/images/Percy.jpg'}")));
 		
 	}
 	/* Función para consultar documentos de la base de datos */
